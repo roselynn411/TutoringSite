@@ -1,0 +1,113 @@
+
+body{
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+
+.flex-container{
+ display: flex;
+ justify-content: center;
+ margin: 10px;
+}
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+li,a,button{
+  font-family:fantasy;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-bar {
+  display:flex;
+  justify-content: space-between;
+}
+
+nav{
+  display: inline;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.block1{
+  background-color: rgb(238, 190, 30);
+  border: solid black 3px;
+  min-width: 300px;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+}
+
+.Aboutme{
+  background-color: rgb(208, 61, 73);
+  align-items: center;
+}
+
+#my-photo{
+  margin: 5px;
+  margin-top:10px;
+}
+
+#about-header {
+  margin: 10px;
+}
+
+#about-text{
+  margin:10px;
+}
+
+button {
+  background-color: rgb(36, 74, 239);
+  color: white;
+  margin:10px;
+}
+
+ul {
+  List-style-type: none;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.navlinks li {
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
+.navlink li a{
+  transition:all 0.3s ease 0s:
+}
+
+.navlink li a:hover{
+  color:lavender;
+}
+
+button{
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169,1);
+  border: none;
+  border-radius: 50px;
+  cursor:pointer;
+  transition: all 0.3s ease 0s:
+
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169,0.8);
+}
+
+.togglesButton{
+  Padding:5px;
+  Font-size:10px;
+  Border-color:blue;
+}
